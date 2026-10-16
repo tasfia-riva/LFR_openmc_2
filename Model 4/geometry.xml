@@ -1,0 +1,260 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<geometry>
+  <cell id="211" material="5" name="Hole" region="-401 -405 406" universe="81"/>
+  <cell id="212" material="3" name="Inner Zone Fuel" region="401 -402 -405 406" universe="81"/>
+  <cell id="213" material="5" name="Gap" region="402 -403 -405 406" universe="81"/>
+  <cell id="214" material="6" name="Cladding" region="403 -404 -407 408" universe="81"/>
+  <cell id="215" material="36" name="Bottom Reflector" region="-403 408 -406" universe="81"/>
+  <cell id="216" material="36" name="Top Reflector" region="-403 405 -407" universe="81"/>
+  <cell id="217" material="7" name="Coolant" region="404" universe="81"/>
+  <cell id="218" material="7" universe="82"/>
+  <cell id="219" material="6" region="~(-409 410 -411 -412 413 414) (-415 416 -417 -418 419 420) -407 408" universe="84"/>
+  <cell fill="83" id="220" region="-409 410 -411 -412 413 414 -407 408" universe="84"/>
+  <cell id="221" material="7" region="~(-415 416 -417 -418 419 420) -407 408" universe="84"/>
+  <cell id="222" material="5" name="Hole" region="-421 -425 426" universe="85"/>
+  <cell id="223" material="4" name="Inner Zone Fuel" region="421 -422 -425 426" universe="85"/>
+  <cell id="224" material="5" name="Gap" region="422 -423 -425 426" universe="85"/>
+  <cell id="225" material="6" name="Cladding" region="423 -424 -427 428" universe="85"/>
+  <cell id="226" material="36" name="Bottom Reflector" region="-423 428 -426" universe="85"/>
+  <cell id="227" material="36" name="Top Reflector" region="-423 425 -427" universe="85"/>
+  <cell id="228" material="7" name="Coolant" region="424" universe="85"/>
+  <cell id="229" material="6" region="~(-429 430 -431 -432 433 434) (-435 436 -437 -438 439 440) -427 428" universe="87"/>
+  <cell fill="86" id="230" region="-429 430 -431 -432 433 434" universe="87"/>
+  <cell id="231" material="7" region="~(-435 436 -437 -438 439 440)" universe="87"/>
+  <cell id="232" material="36" name="refletor cell" region="-441 -444 445" universe="88"/>
+  <cell id="233" material="5" name="Gap" region="441 -442 -444 445" universe="88"/>
+  <cell id="234" material="6" name="Cladding" region="442 -443 -444 445" universe="88"/>
+  <cell id="235" material="7" name="Coolant" region="443" universe="88"/>
+  <cell id="236" material="6" region="~(-446 447 -448 -449 450 451) (-452 453 -454 -455 456 457) -444 445" universe="90"/>
+  <cell fill="89" id="237" region="-446 447 -448 -449 450 451" universe="90"/>
+  <cell id="238" material="7" region="~(-452 453 -454 -455 456 457)" universe="90"/>
+  <cell id="239" material="7" region="-458 459 -460 461 462 -463" universe="91"/>
+  <cell id="240" material="7" region="~(-458 459 -460 461 462 -463)" universe="91"/>
+  <cell id="241" material="8" region="-464 -425 466" universe="92"/>
+  <cell id="242" material="6" region="-465 464 -444 445" universe="92"/>
+  <cell id="243" material="7" region="465 -444 445" universe="92"/>
+  <cell id="244" material="7" region="-465 -466 445 425" universe="92"/>
+  <cell id="245" material="36" name="Bottom Reflector" region="-464 445 -466" universe="92"/>
+  <cell id="246" material="36" name="Top Reflector" region="-464 425 -444" universe="92"/>
+  <cell id="247" material="6" region="~(-467 468 -469 -470 471 472) (-473 474 -475 -476 477 478) -444 445" universe="94"/>
+  <cell id="248" material="7" region="~(-467 468 -469 -470 471 472) (-473 474 -475 -476 477 478) -445 445" universe="94"/>
+  <cell fill="93" id="249" region="-467 468 -469 -470 471 472 -444 445" universe="94"/>
+  <cell id="250" material="7" region="~(-473 474 -475 -476 477 478) -444 445" universe="94"/>
+  <cell fill="95" id="251" region="-479 -444 445" universe="96"/>
+  <cell id="252" material="6" region="-480 479 -444 445" universe="96"/>
+  <hex_lattice id="83" n_rings="7">
+    <pitch>1.384</pitch>
+    <outer>82</outer>
+    <center>0.0 0.0</center>
+    <universes>
+            81
+          81  81
+        81  81  81
+      81  81  81  81
+    81  81  81  81  81
+  81  81  81  81  81  81
+81  81  81  81  81  81  81
+  81  81  81  81  81  81
+81  81  81  81  81  81  81
+  81  81  81  81  81  81
+81  81  81  81  81  81  81
+  81  81  81  81  81  81
+81  81  81  81  81  81  81
+  81  81  81  81  81  81
+81  81  81  81  81  81  81
+  81  81  81  81  81  81
+81  81  81  81  81  81  81
+  81  81  81  81  81  81
+81  81  81  81  81  81  81
+  81  81  81  81  81  81
+    81  81  81  81  81
+      81  81  81  81
+        81  81  81
+          81  81
+            81</universes>
+  </hex_lattice>
+  <hex_lattice id="86" n_rings="7">
+    <pitch>1.384</pitch>
+    <outer>82</outer>
+    <center>0.0 0.0</center>
+    <universes>
+            85
+          85  85
+        85  85  85
+      85  85  85  85
+    85  85  85  85  85
+  85  85  85  85  85  85
+85  85  85  85  85  85  85
+  85  85  85  85  85  85
+85  85  85  85  85  85  85
+  85  85  85  85  85  85
+85  85  85  85  85  85  85
+  85  85  85  85  85  85
+85  85  85  85  85  85  85
+  85  85  85  85  85  85
+85  85  85  85  85  85  85
+  85  85  85  85  85  85
+85  85  85  85  85  85  85
+  85  85  85  85  85  85
+85  85  85  85  85  85  85
+  85  85  85  85  85  85
+    85  85  85  85  85
+      85  85  85  85
+        85  85  85
+          85  85
+            85</universes>
+  </hex_lattice>
+  <hex_lattice id="89" n_rings="7">
+    <pitch>1.384</pitch>
+    <outer>82</outer>
+    <center>0.0 0.0</center>
+    <universes>
+            88
+          88  88
+        88  88  88
+      88  88  88  88
+    88  88  88  88  88
+  88  88  88  88  88  88
+88  88  88  88  88  88  88
+  88  88  88  88  88  88
+88  88  88  88  88  88  88
+  88  88  88  88  88  88
+88  88  88  88  88  88  88
+  88  88  88  88  88  88
+88  88  88  88  88  88  88
+  88  88  88  88  88  88
+88  88  88  88  88  88  88
+  88  88  88  88  88  88
+88  88  88  88  88  88  88
+  88  88  88  88  88  88
+88  88  88  88  88  88  88
+  88  88  88  88  88  88
+    88  88  88  88  88
+      88  88  88  88
+        88  88  88
+          88  88
+            88</universes>
+  </hex_lattice>
+  <hex_lattice id="93" n_rings="3" name="control assembly">
+    <pitch>3.5</pitch>
+    <outer>82</outer>
+    <center>0.0 0.0</center>
+    <universes>
+    92
+  92  92
+92  92  92
+  92  92
+92  92  92
+  92  92
+92  92  92
+  92  92
+    92</universes>
+  </hex_lattice>
+  <hex_lattice id="95" n_rings="11" name="core" orientation="x">
+    <pitch>18.15</pitch>
+    <outer>82</outer>
+    <center>0.0 0.0</center>
+    <universes>
+                    91  91  91  90  90  90  90  90  91  91  91
+                  91  91  90  90  90  90  90  90  90  90  91  91
+                91  90  90  90  90  87  87  87  90  90  90  90  91
+              90  90  90  87  87  87  87  87  87  87  87  90  90  90
+            90  90  90  87  87  87  94  87  94  87  87  87  90  90  90
+          90  90  87  87  87  87  87  87  87  87  87  87  87  87  90  90
+        90  90  87  87  94  87  84  84  84  84  84  87  94  87  87  90  90
+      90  90  87  87  87  87  84  84  84  84  84  84  87  87  87  87  90  90
+    91  90  90  87  94  87  84  84  84  91  84  84  84  87  94  87  90  90  91
+  91  90  90  87  87  87  84  84  84  84  84  84  84  84  87  87  87  90  90  91
+91  90  90  87  87  87  84  84  91  84  84  84  91  84  84  87  87  87  90  90  91
+  91  90  90  87  87  87  84  84  84  84  84  84  84  84  87  87  87  90  90  91
+    91  90  90  87  94  87  84  84  84  91  84  84  84  87  94  87  90  90  91
+      90  90  87  87  87  87  84  84  84  84  84  84  87  87  87  87  90  90
+        90  90  87  87  94  87  84  84  84  84  84  87  94  87  87  90  90
+          90  90  87  87  87  87  87  87  87  87  87  87  87  87  90  90
+            90  90  90  87  87  87  94  87  94  87  87  87  90  90  90
+              90  90  90  87  87  87  87  87  87  87  87  90  90  90
+                91  90  90  90  90  87  87  87  90  90  90  90  91
+                  91  91  90  90  90  90  90  90  90  90  91  91
+                    91  91  91  90  90  90  90  90  91  91  91</universes>
+  </hex_lattice>
+  <surface coeffs="0.0 0.0 0.2" id="401" type="z-cylinder"/>
+  <surface coeffs="0.0 0.0 0.45" id="402" type="z-cylinder"/>
+  <surface coeffs="0.0 0.0 0.465" id="403" type="z-cylinder"/>
+  <surface coeffs="0.0 0.0 0.525" id="404" type="z-cylinder"/>
+  <surface coeffs="30" id="405" name="top" type="z-plane"/>
+  <surface coeffs="-30" id="406" name="bottom" type="z-plane"/>
+  <surface boundary="reflective" coeffs="40" id="407" name="top" type="z-plane"/>
+  <surface boundary="reflective" coeffs="-40" id="408" name="bottom" type="z-plane"/>
+  <surface coeffs="8.140638795573723" id="409" type="x-plane"/>
+  <surface coeffs="-8.140638795573723" id="410" type="x-plane"/>
+  <surface coeffs="0.5773502691896257 1.0 0.0 9.4" id="411" type="plane"/>
+  <surface coeffs="-0.5773502691896257 1.0 0.0 9.4" id="412" type="plane"/>
+  <surface coeffs="-0.5773502691896257 1.0 0.0 -9.4" id="413" type="plane"/>
+  <surface coeffs="0.5773502691896257 1.0 0.0 -9.4" id="414" type="plane"/>
+  <surface coeffs="8.833459118601272" id="415" type="x-plane"/>
+  <surface coeffs="-8.833459118601272" id="416" type="x-plane"/>
+  <surface coeffs="0.5773502691896257 1.0 0.0 10.2" id="417" type="plane"/>
+  <surface coeffs="-0.5773502691896257 1.0 0.0 10.2" id="418" type="plane"/>
+  <surface coeffs="-0.5773502691896257 1.0 0.0 -10.2" id="419" type="plane"/>
+  <surface coeffs="0.5773502691896257 1.0 0.0 -10.2" id="420" type="plane"/>
+  <surface coeffs="0.0 0.0 0.1" id="421" type="z-cylinder"/>
+  <surface coeffs="0.0 0.0 0.45" id="422" type="z-cylinder"/>
+  <surface coeffs="0.0 0.0 0.465" id="423" type="z-cylinder"/>
+  <surface coeffs="0.0 0.0 0.525" id="424" type="z-cylinder"/>
+  <surface coeffs="30" id="425" name="top" type="z-plane"/>
+  <surface coeffs="-30" id="426" name="bottom" type="z-plane"/>
+  <surface boundary="reflective" coeffs="40" id="427" name="top" type="z-plane"/>
+  <surface boundary="reflective" coeffs="-40" id="428" name="bottom" type="z-plane"/>
+  <surface coeffs="8.140638795573723" id="429" type="x-plane"/>
+  <surface coeffs="-8.140638795573723" id="430" type="x-plane"/>
+  <surface coeffs="0.5773502691896257 1.0 0.0 9.4" id="431" type="plane"/>
+  <surface coeffs="-0.5773502691896257 1.0 0.0 9.4" id="432" type="plane"/>
+  <surface coeffs="-0.5773502691896257 1.0 0.0 -9.4" id="433" type="plane"/>
+  <surface coeffs="0.5773502691896257 1.0 0.0 -9.4" id="434" type="plane"/>
+  <surface coeffs="8.833459118601272" id="435" type="x-plane"/>
+  <surface coeffs="-8.833459118601272" id="436" type="x-plane"/>
+  <surface coeffs="0.5773502691896257 1.0 0.0 10.2" id="437" type="plane"/>
+  <surface coeffs="-0.5773502691896257 1.0 0.0 10.2" id="438" type="plane"/>
+  <surface coeffs="-0.5773502691896257 1.0 0.0 -10.2" id="439" type="plane"/>
+  <surface coeffs="0.5773502691896257 1.0 0.0 -10.2" id="440" type="plane"/>
+  <surface coeffs="0.0 0.0 0.45" id="441" type="z-cylinder"/>
+  <surface coeffs="0.0 0.0 0.465" id="442" type="z-cylinder"/>
+  <surface coeffs="0.0 0.0 0.525" id="443" type="z-cylinder"/>
+  <surface boundary="reflective" coeffs="40" id="444" name="top" type="z-plane"/>
+  <surface boundary="reflective" coeffs="-40" id="445" name="bottom" type="z-plane"/>
+  <surface coeffs="8.140638795573723" id="446" type="x-plane"/>
+  <surface coeffs="-8.140638795573723" id="447" type="x-plane"/>
+  <surface coeffs="0.5773502691896257 1.0 0.0 9.4" id="448" type="plane"/>
+  <surface coeffs="-0.5773502691896257 1.0 0.0 9.4" id="449" type="plane"/>
+  <surface coeffs="-0.5773502691896257 1.0 0.0 -9.4" id="450" type="plane"/>
+  <surface coeffs="0.5773502691896257 1.0 0.0 -9.4" id="451" type="plane"/>
+  <surface coeffs="8.833459118601272" id="452" type="x-plane"/>
+  <surface coeffs="-8.833459118601272" id="453" type="x-plane"/>
+  <surface coeffs="0.5773502691896257 1.0 0.0 10.2" id="454" type="plane"/>
+  <surface coeffs="-0.5773502691896257 1.0 0.0 10.2" id="455" type="plane"/>
+  <surface coeffs="-0.5773502691896257 1.0 0.0 -10.2" id="456" type="plane"/>
+  <surface coeffs="0.5773502691896257 1.0 0.0 -10.2" id="457" type="plane"/>
+  <surface coeffs="8.39005411186364" id="458" type="y-plane"/>
+  <surface coeffs="-8.39005411186364" id="459" type="y-plane"/>
+  <surface coeffs="1.7320508075688772 1.0 0.0 16.78010822372728" id="460" type="plane"/>
+  <surface coeffs="-1.7320508075688772 1.0 0.0 -16.78010822372728" id="461" type="plane"/>
+  <surface coeffs="1.7320508075688772 1.0 0.0 -16.78010822372728" id="462" type="plane"/>
+  <surface coeffs="-1.7320508075688772 1.0 0.0 16.78010822372728" id="463" type="plane"/>
+  <surface coeffs="0.0 0.0 1.5" id="464" type="z-cylinder"/>
+  <surface coeffs="0.0 0.0 1.6" id="465" type="z-cylinder"/>
+  <surface coeffs="-30" id="466" type="z-plane"/>
+  <surface coeffs="8.140638795573723" id="467" type="x-plane"/>
+  <surface coeffs="-8.140638795573723" id="468" type="x-plane"/>
+  <surface coeffs="0.5773502691896257 1.0 0.0 9.4" id="469" type="plane"/>
+  <surface coeffs="-0.5773502691896257 1.0 0.0 9.4" id="470" type="plane"/>
+  <surface coeffs="-0.5773502691896257 1.0 0.0 -9.4" id="471" type="plane"/>
+  <surface coeffs="0.5773502691896257 1.0 0.0 -9.4" id="472" type="plane"/>
+  <surface coeffs="8.833459118601272" id="473" type="x-plane"/>
+  <surface coeffs="-8.833459118601272" id="474" type="x-plane"/>
+  <surface coeffs="0.5773502691896257 1.0 0.0 10.2" id="475" type="plane"/>
+  <surface coeffs="-0.5773502691896257 1.0 0.0 10.2" id="476" type="plane"/>
+  <surface coeffs="-0.5773502691896257 1.0 0.0 -10.2" id="477" type="plane"/>
+  <surface coeffs="0.5773502691896257 1.0 0.0 -10.2" id="478" type="plane"/>
+  <surface coeffs="0.0 0.0 174" id="479" type="z-cylinder"/>
+  <surface boundary="vacuum" coeffs="0.0 0.0 178" id="480" type="z-cylinder"/>
+</geometry>
