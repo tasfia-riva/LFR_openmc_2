@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<tallies>
+  <filter id="1" type="material">
+    <bins>9</bins>
+  </filter>
+  <tally id="1" name="Absorption">
+    <filters>1</filters>
+    <scores>absorption</scores>
+  </tally>
+  <tally id="3" name="elastic">
+    <filters>1</filters>
+    <scores>elastic</scores>
+  </tally>
+  <tally id="4" name="scatter">
+    <filters>1</filters>
+    <scores>scatter</scores>
+  </tally>
+  <tally id="2" name="total">
+    <filters>1</filters>
+    <scores>total</scores>
+  </tally>
+</tallies>

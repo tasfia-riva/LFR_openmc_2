@@ -1,0 +1,20 @@
+ ======================>     TALLY 1: ABSORPTION     <======================
+
+ Material 9
+   Total Material
+     Absorption Rate                      0.0413976 +/- 0.000170238
+ =======================>     TALLY 3: ELASTIC     <========================
+
+ Material 9
+   Total Material
+     (n,elastic)                          11.8943 +/- 0.0307907
+ =======================>     TALLY 4: SCATTER     <========================
+
+ Material 9
+   Total Material
+     Scattering Rate                      11.9814 +/- 0.0308943
+ ========================>     TALLY 2: TOTAL     <=========================
+
+ Material 9
+   Total Material
+     Total Reaction Rate                  12.0228 +/- 0.0310305
